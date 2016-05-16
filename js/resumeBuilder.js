@@ -103,7 +103,7 @@ var projects = {
 								"cariac-application server to support new Cardiac applications.</li>"+
 								"<li>Cost Reduction - Reduce cost by updating older product boards to newer parts and reducing the number of "+
 								"image-processing boards needed.</li>",
-								"images" : ["images/panel-angiography.jpg", "images/cardiac_p8000v.jpg"]
+								"images" : ["images/cardiac_p8000v.jpg", "images/panel-angiography.jpg"]
 							   },
 							   {
 								"title" : "3G Mobile Phone Component Sourcing (Supply Chain)",
@@ -115,7 +115,7 @@ var projects = {
 								"<li>BOM preparation  - Work with new product development teams, factories, and Category Management on transition to "+
 								"new BOM entry/control system.</li>"+
 								"<li>Green Belt - Earned Six-Sigma Green Belt to improve component quality.</li>",
-								"images" : []
+								"images" : ["images/pop.jpg"]
 							   },
 							   {
 								"title" : "Automotive Acoustic Echo Canceller",
@@ -127,7 +127,7 @@ var projects = {
 								"Telematics support gate array for executing current and future hands-free, voice recognition, and navigation applications.</li>"+
 								"<li>Quality Initiative - Successfully led the management effort within the Hands-free Software team to achieve"+
 								" SEI Level 3 to secure new contracts with existing automotive customers.</li>",
-								"images" : []
+								"images" : ["images/caraudio.jpg", "images/echocancellerpic.jpg"]
 							   },
 							   {
 								"title" : "Baseband Design for Various Wireless Products",
@@ -144,7 +144,7 @@ var projects = {
 								"redesigns to reduce manufacturing defects, simplify product servicing, and resolve customer return issues.  "+
 								"Modified pager circuitry to pass ESD and FCC emissions tests and prepared FCC and UL approval design documents "+
 								"for several pager products.</li>",
-								"images" : ["images/mo-cd930-blau-1-small.jpg", "images/advisor gold.jpg", "images/MCS2000 MDL 2.jpg"]
+								"images" : ["images/MCS2000 MDL 2.jpg", "images/advisor gold flx.jpg", "images/mo-cd930-blau-1-small.jpg"]
 							   }
 							]
 				};
