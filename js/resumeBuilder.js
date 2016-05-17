@@ -115,7 +115,7 @@ var projects = {
 								"<li>BOM preparation  - Work with new product development teams, factories, and Category Management on transition to "+
 								"new BOM entry/control system.</li>"+
 								"<li>Green Belt - Earned Six-Sigma Green Belt to improve component quality.</li>",
-								"images" : ["images/pop.jpg"]
+								"images" : ["images/pennwell.jpg"]
 							   },
 							   {
 								"title" : "Automotive Acoustic Echo Canceller",
@@ -223,7 +223,7 @@ function locationizer(work_obj)
 function inName()
 {
 	var outputName = "";
-	var input = biography.name.trim();
+	var input = bio.name.trim();
 	
 	var nameArray = input.split(' ');
 	outputName = (nameArray[0][0]).toUpperCase()+nameArray[0].slice(1).toLowerCase()+ " " + nameArray[1].toUpperCase();
@@ -304,12 +304,15 @@ projects.display = function()
 			$(".project-entry:last").append(formattedProjDates);
 			$(".project-entry:last").append(formattedProjDescription);
 			
-			if (projects.project[project].images.length > 0)
+			if ($(window).width() > 600)
 			{
-				for (image in projects.project[project].images)
+				if (projects.project[project].images.length > 0)
 				{
-					var formattedProjImage = HTMLprojectImage.replace("%data%", projects.project[project].images[image]);
-					$(".project-entry:last").append(formattedProjImage);
+					for (image in projects.project[project].images)
+					{
+						var formattedProjImage = HTMLprojectImage.replace("%data%", projects.project[project].images[image]);
+						$(".project-entry:last").append(formattedProjImage);
+					}
 				}
 			}
 		 }
@@ -357,11 +360,19 @@ education.display = function()
 		 }
 	}
 }
- 
+
+window.addEventListener('resize', refresh);
+
+function refresh()
+{
+	window.location.reload(true);
+}
+
 bio.display();
 work.display();
 projects.display();
 education.display();
+
 
 //var formattedButton = internationalizeButton.replace("<button>", <button type="button" onclick="$("#header").append(formattedInternationalName)">);
 $('#main').append(internationalizeButton);
