@@ -19,7 +19,12 @@ if (!String.prototype.trim)
 						 },
 			"biopic" : "images/KO_Closeup.JPG",
 			"welcomeMessage" : "Thanks for viewing my online resume'.  You are looking at your next best employee.",
-			"skills" : ["programming", "hardware design", "debugging", "unit and integration testing", "Six-sigma Green Belt"]
+			"skills" : ["Programming - Assembly, C, C++, Java, Javascript", 
+						"Operating Systems - Linux, Windows, VxWorks, QNX", 
+						"Software Development - Req, Design, Systems Documents; waterfall and incremental dev processes",
+						"Debugging, unit and integration testing", 
+						"Project Management - Multi-displine project schedules, risk assessment and mitigation, FMEAs, FOSS",
+						"Six-sigma Green Belt"]
 			};
 				 
 var work = { 
@@ -237,22 +242,29 @@ bio.display = function()
 	{
 		var formattedName        = HTMLheaderName.replace("%data%", bio.name);
 		var formattedRole        = HTMLheaderRole.replace("%data%", bio.role);
+		var formattedpRole       = HTMLheaderpRole.replace("%data%", bio.role);
 		var formattedMobile      = HTMLmobile.replace("%data%", bio.contacts.mobile);
 		var formattedEmail       = HTMLemail.replace("%data%", bio.contacts.email);
 		var formattedGitHub      = HTMLgithub.replace("%data%", bio.contacts.github);
 		var formattedLocation    = HTMLlocation.replace("%data%", bio.contacts.location);
 		var formattedBioPic      = HTMLbioPic.replace("%data%", bio.biopic);
 		var formattedWelcomeMsg  = HTMLwelcomeMsg.replace("%data%", bio.welcomeMessage);
+		var formattedpWelcomeMsg = HTMLpwelcomeMsg.replace("%data%", bio.welcomeMessage);
 	 
-		$("#header").prepend(formattedRole);
+		if ($(window).width() > 600)
+		{
+			$("#header").prepend(formattedRole);
+		}
+		else
+		{
+			$("#header").prepend(formattedpRole);
+		}
 		$("#header").prepend(formattedName);
 		$("#topContacts").append(formattedMobile);
 		$("#topContacts").append(formattedEmail);
 		$("#topContacts").append(formattedGitHub);
 		$("#topContacts").append(formattedLocation);
 		$("#header").append(formattedBioPic);
-		$("#header").append(formattedWelcomeMsg);
- 
 		if (bio.skills.length > 0)		 
 		{
 			 $("#header").append(HTMLskillsStart);
@@ -261,6 +273,14 @@ bio.display = function()
 				var formattedSkills = HTMLskills.replace("%data%", bio.skills[i]);
 				$("#header").append(formattedSkills);
 			 }
+		}
+		if ($(window).width() > 600)
+		{
+			$("#header").append(formattedWelcomeMsg);
+		}
+		else
+		{
+			$("#header").append(formattedpWelcomeMsg);
 		}
 	}
 }
