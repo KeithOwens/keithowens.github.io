@@ -111,6 +111,10 @@ a {
   color: #f5ae23;
 }
 
+.gray-text {
+  color: #a3a3a3;
+}
+
 .white-text {
   font-weight: bold;
   color: #fff;
@@ -134,7 +138,7 @@ a {
 
 /* TODO: Replace with image later */
 #header {
-  background-color: #484848;
+
 }
 
 .flex-box {

@@ -19,12 +19,17 @@ if (!String.prototype.trim)
 						 },
 			"biopic" : "images/KO_Closeup.JPG",
 			"welcomeMessage" : "Thanks for viewing my online resume'.  You are looking at your next best employee.",
-			"skills" : ["Programming - Assembly, C, C++, Java, Javascript", 
-						"Operating Systems - Linux, Windows, VxWorks, QNX", 
-						"Software Development - Req, Design, Systems Documents; waterfall and incremental dev processes",
-						"Debugging, unit and integration testing", 
-						"Project Management - Multi-displine project schedules, risk assessment and mitigation, FMEAs, FOSS",
-						"Six-sigma Green Belt"]
+			"skills" : ["Software Development - Multi-processor, multi-threading, algorithms, System V and POSIX APIs, MFC, .NET, object-oriented, user and kernel space",
+					"Languages - C/C++, HTML, CSS, Javascript, Java, assembly",
+					"Operating Systems  - Linux, Windows, QNX, VxWorks",
+					"Version Control Tools - SVN, Git, Clearcase",
+					"Defect Tracking - Trac, Clearquest",
+					"Debugging - Single-step, trace, logging", 
+					"Testing - Unit, integration, regression, automated, static analysis", 
+					"Technical Management - Multi-discipline project schedules and priorities, FMEAs, FOSS",
+					"Systems and design document preparation",
+					"hardware design", 
+					"Six-sigma Green Belt"]
 			};
 				 
 var work = { 
