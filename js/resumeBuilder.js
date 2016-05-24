@@ -101,7 +101,7 @@ var projects = {
 								"<li>Health Monitoring  - Added new features to automated testing to better model production system "+
 								"performance and eliminate system-level defects. (C, C++, Linux, Windows, C#, .NET)</li>"+
 								"<li>Version Validation - Added new features to confirm correct SW versions are running at system start-up. (C, C++, Linux, Windows)</li>",
-								"images" : ["images/Toshiba-PET-CT.jpg", "images/celesteion01.jpg"]
+								"images" : ["images/Toshiba-PET-CT.jpg", "images/celesteion_mod.jpg"]
 							   },
 							   {
 								"title" : "X-ray Angiography/Cardiac Scanner",
@@ -153,7 +153,7 @@ var projects = {
 								"redesigns to reduce manufacturing defects, simplify product servicing, and resolve customer return issues.  "+
 								"Modified pager circuitry to pass ESD and FCC emissions tests and prepared FCC and UL approval design documents "+
 								"for several pager products.</li>",
-								"images" : ["images/MCS2000 MDL 2.jpg", "images/advisor gold flx.jpg", "images/mo-cd930-blau-1-small.jpg"]
+								"images" : ["images/devices.jpg"]
 							   }
 							]
 				};
@@ -324,7 +324,7 @@ projects.display = function()
 			$(".project-entry:last").append(formattedProjDates);
 			$(".project-entry:last").append(formattedProjDescription);
 			
-			if ($(window).width() > 600)
+			if ($(window).width() > 767)
 			{
 				if (projects.project[project].images.length > 0)
 				{
