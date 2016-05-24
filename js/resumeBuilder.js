@@ -278,7 +278,7 @@ bio.display = function()
 				$("#header").append(formattedSkills);
 			 }
 		}
-		if ($(window).width() > 600)
+		if ($(window).width() > 767)
 		{
 			$("#header").append(formattedWelcomeMsg);
 		}

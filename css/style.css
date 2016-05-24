@@ -18,16 +18,11 @@ h6 {
   overflow: auto;
 }
 
+.education-entry,
 .work-entry,
 .project-entry {
   padding: 0 5%;
 }
-
-.education-entry {
-  padding: 0 5%;
-  page-break-before: always;
-}
-
 
 h1 {
   font-size: 40px;
@@ -41,7 +36,7 @@ h2 {
   font-size: 24px;
   color: #999;
   line-height: 29px;
-  padding: 10px;
+  padding: 5px;
 }
 
 h3 {
@@ -101,7 +96,7 @@ h5 {
 	  font-weight: bold;
 	  font-size: 24px;
 	  line-height: 29px;
-	  padding: 10px;
+	  padding: 5px;
 	}
 
 	h3 {
@@ -140,7 +135,6 @@ h5 {
 	  text-decoration: none;
 	  margin-top: 10px;
 	  display: block;
-	  align: left;
 	}
 	
 	#skills-h3 {
@@ -148,6 +142,9 @@ h5 {
 	}
 	#header {
 	 
+	}
+	.welcome-message {
+	  display: none;
 	}
 }
 
