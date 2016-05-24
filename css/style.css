@@ -18,11 +18,16 @@ h6 {
   overflow: auto;
 }
 
-.education-entry,
 .work-entry,
 .project-entry {
   padding: 0 5%;
 }
+
+.education-entry {
+  padding: 0 5%;
+  page-break-before: always;
+}
+
 
 h1 {
   font-size: 40px;
