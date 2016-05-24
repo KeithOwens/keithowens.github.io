@@ -382,7 +382,7 @@ education.display = function()
 	}
 }
 
-window.addEventListener('resize', refresh);
+window.addEventListener('resize', refresh, true);  //Third argument needed to prevent Firefox exception
 
 function refresh()
 {
