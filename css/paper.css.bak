@@ -57,29 +57,6 @@ h5 {
 
 }
 
-img {
-display: none;
-}
-
-.biopic {
-  display: none;
-}
-
-#lets-connect {
-  display: none;
-}
-
-#map {
-  display: none;
-}
-
-#mapDiv {
-  display: none;
-}
-
-.internationalize{
-  display: none;
-}
 
 .date-text {
   font-style: italic;
@@ -93,6 +70,7 @@ display: none;
   font-size: 14px;
   line-height: 16px;
   float: right;
+
 }
 
 p {
@@ -104,7 +82,12 @@ a {
   text-decoration: none;
   margin-top: 10px;
   display: block;
-  align: left;
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 #skills-h3 {
@@ -150,6 +133,11 @@ a {
   background-color: #4a4a4a;
 }
 
+/* TODO: Replace with image later */
+#header {
+
+}
+
 .flex-box {
   display: -webkit-flex;
   display: flex;
@@ -170,26 +158,87 @@ ul {
   list-style-type: none;
 }
 
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
 span {
   padding: 5px;
 }
 
-/* Media queries to handle various device widths */
-
-
-@media only screen and (max-width: 350px) {
-
+#lets-connect {
+  text-align: center;
 }
 
-@media only screen and (max-width: 480px) {
+/* Media queries to handle various device widths */
+
+@media only screen and (max-width: 1024px) {
+  #lets-connect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #lets-connect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+  /*KLO - Added
+  h1 {
+	  font-size: 40px;
+	  color: #f5a623;
+	  line-height: 48px;
+	  display: inline;
+	}
+	span{
+		make paragraph instead...
+	}*/
+
+	*/
+}
+
+@media only screen and (max-width: 600px) {
 	.flex-box {
 	  display: -webkit-block;
-	  display: inline;
+	  display: flex;
 	  flex-direction: row;
 	  justify-content: center;
 	}
 }
 
+#map {
+  display: block;
+  height: 100%;
+  margin: 0 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
 @media only screen and (min-width: 750px) {
-  #skills-h3
+  #skills-h3,
+  .biopic {
+    display: block;
+  }
 }

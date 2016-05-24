@@ -10,7 +10,7 @@ if (!String.prototype.trim)
  
  var bio = {
 			"name" : "Keith Owens",
-			"role" : "Software Engineer, Embedded and Web",
+			"role" : "Software Engineer/Web Developer",
 			"contacts" : {
 						  "mobile" : "815-353-6949",
 						  "email" : "koengineer@ymail",
@@ -18,9 +18,9 @@ if (!String.prototype.trim)
 						  "location" : "Crystal Lake, IL"
 						 },
 			"biopic" : "images/KO_Closeup.JPG",
-			"welcomeMessage" : "<hr>Thanks for viewing my online resume'.  Please contact me, so we can talk about how I can improve your company's bottom line.",
+			"welcomeMessage" : "Thanks for viewing my online resume'.  You are looking at your next best employee.",
 			"skills" : ["Software Development - Multi-processor, multi-threading, algorithms, System V and POSIX APIs, MFC, .NET, object-oriented, user and kernel space",
-					"Languages - C/C++, MFC, C#, .NET, HTML, CSS, Javascript, Java, assembly",
+					"Languages - C/C++, HTML, CSS, Javascript, Java, assembly",
 					"Operating Systems  - Linux, Windows, QNX, VxWorks",
 					"Version Control Tools - SVN, Git, Clearcase",
 					"Defect Tracking - Trac, Clearquest",
@@ -28,7 +28,7 @@ if (!String.prototype.trim)
 					"Testing - Unit, integration, regression, automated, static analysis", 
 					"Technical Management - Multi-discipline project schedules and priorities, FMEAs, FOSS",
 					"Systems and design document preparation",
-					"Hardware design - digital, audio, power management, EMI, ESD, I/O", 
+					"hardware design", 
 					"Six-sigma Green Belt"]
 			};
 				 
@@ -91,27 +91,28 @@ var projects = {
 								"title" : "PET Scanner",
 								"dates" : "2012 - Present",
 								"description" : "<li>Gated Acquisition - Design, implement, and now maintain the new respiratory gating "+
-								"waveform and trigger information collected from an Anzai device. (C, C++, Linux)</li>"+
-								"<li>DICOM Study Converter - Create conversion program for research groups to convert DICOM studies to proprietary data "+
-								"formats. (C, C++, Windows, MFC)</li>"+
+								"waveform and trigger information Collected from an Anzai device.</li>"+
 								"<li>Data Acquisition - Design, implement, and now maintain the data collection tasks on the Acquisition Server.  "+
-								"Included creation of a scan hardware simulator and data verification test program. (C, C++, Linux, QNX, Windows, C#, .NET) </li>"+
+								"Included creation of a scan hardware simulator and data verification test program.</li>"+
 								"<li>Detector Calibration - Port research software/algorithms to run on production system.  Includes interfacing to "+
-								"new Host server software and calculation speed-ups.</li>(C. C++, MATLAB, Windows)"+
+								"new Host server software and calculation speed-ups.</li>"+
 								"<li>Health Monitoring  - Added new features to automated testing to better model production system "+
-								"performance and eliminate system-level defects. (C, C++, Linux, Windows, C#, .NET)</li>"+
-								"<li>Version Validation - Added new features to confirm correct SW versions are running at system start-up. (C, C++, Linux, Windows)</li>",
+								"performance and eliminate system-level defects.</li>"+
+								"<li>Version Validation - Added new features to confirm correct SW versions are running at system start-up.</li>"+
+								"<li>Release Versioning - Separated release software into versions, which do not change often, and versions that "+
+								"are likely to change with every release.</li>",
+								
 								"images" : ["images/Toshiba-PET-CT.jpg", "images/celesteion01.jpg"]
 							   },
 							   {
 								"title" : "X-ray Angiography/Cardiac Scanner",
 								"dates" : "2007 - 2012",
 								"description" : "<li>Next-generation X-ray system - Proved feasibility of Preempt-RT Linux OS for X-ray/data "+
-								"acquisition applications as part of a cost-reduction effort to use COTS hardware. (C, C++, Linux, OpenGL/GLX)</li>"+
+								"acquisition applications as part of a cost-reduction effort to use COTS hardware.</li>"+
 								"<li>High-speed data transfer for VCT - Implemented Fibre Channel communication between RAID and separate "+
-								"cariac-application server to support new Cardiac applications. (C, C++, VxWorks, C#, .NET)</li>"+
+								"cariac-application server to support new Cardiac applications.</li>"+
 								"<li>Cost Reduction - Reduce cost by updating older product boards to newer parts and reducing the number of "+
-								"image-processing boards needed. (C, C++, VxWorks)</li>",
+								"image-processing boards needed.</li>",
 								"images" : ["images/cardiac_p8000v.jpg", "images/panel-angiography.jpg"]
 							   },
 							   {
@@ -131,9 +132,9 @@ var projects = {
 								"dates" : "2001 - 2004",
 								"description" : "<li>Voice Activity Detector - Designed, developed, and tested for production a new voice activity "+
 								"detector, echo estimator, and landline echo canceller for the hands-free software solution resulted in a $6/unit savings "+
-								"for products shipping 1million+ units/year.(C, MATLAB)</li>"+
+								"for products shipping 1million+ units/year.</li>"+
 								"<li>Deep Cost Reduction - Involved in the system, hardware, and software specification and initial design of a "+
-								"Telematics support gate array for executing current and future hands-free, voice recognition, and navigation applications. (C)</li>"+
+								"Telematics support gate array for executing current and future hands-free, voice recognition, and navigation applications.</li>"+
 								"<li>Quality Initiative - Successfully led the management effort within the Hands-free Software team to achieve"+
 								" SEI Level 3 to secure new contracts with existing automotive customers.</li>",
 								"images" : ["images/caraudio.jpg", "images/echocancellerpic.jpg"]
@@ -141,9 +142,9 @@ var projects = {
 							   {
 								"title" : "Baseband Design for Various Wireless Products",
 								"dates" : "1994 - 2001",
-								"description" : "<li>Digital Embedded Telephone - Designed and implemented Qualcomm-based CDMA embedded mobile phone "+
+								"description" : "<li>Digital Embedded Telephone - Designed and implemented Qualcomm-baseed CDMA embedded mobile phone "+
 								"for use with GM-OnStar products.  Evaluated performance of Qualcomm, Conexant, and Infineon mobile phone chipsets for "+
-								"use in future embedded mobile phone products. (Digital, power management, EMI, ESD, I/O)</li>"+
+								"use in future embedded mobile phone products.</li>"+
 								"<li>Wireless Products - Designed, implemented, and tested the digital controller, power, audio, lighting, and "+
 								"alert sections of public safety radios, numeric and alphanumeric pagers, and a GSM phone.</li>"+
 								"<li>Cost Reduction - Successfully identified, implemented, and tested several circuit redesigns on multiple pagers.  "+
@@ -172,14 +173,14 @@ var education ={
 							  "degree" : "Masters",
 							  "majors" : ["EE, DSP and Digital comm specializations"],
 							  "dates" : "1994 - 1998",
-							  "url" : "http://www.ece.ufl.edu"
+							  "url" : "http://www.ece.ufl.edu/"
 							  },
 							  {"name" : "University of Florida",
 							  "location" : "Gainesville, FL",
 							  "degree" : "BS",
 							  "majors" : ["EE, Mathematics minor"],
 							  "dates" : "1988 - 1993",
-							  "url" : "http://www.ece.ufl.edu"
+							  "url" : "http://www.ece.ufl.edu/"
 							  }
 							],
 				"onlineCourses" : [
@@ -282,6 +283,10 @@ bio.display = function()
 		{
 			$("#header").append(formattedWelcomeMsg);
 		}
+		else
+		{
+			$("#header").append(formattedpWelcomeMsg);
+		}
 	}
 }
  
@@ -348,7 +353,6 @@ education.display = function()
 			$("#education").append(HTMLschoolStart);
 			
 			var formattedschoolName = HTMLschoolName.replace("%data%", education.schools[school].name);
-			formattedschoolName = formattedschoolName.replace("%url%", education.schools[school].url);
 			var formattedschoolDegree = HTMLschoolDegree.replace("%data%", education.schools[school].degree);
 			var formattedschoolMajor = HTMLschoolMajor.replace("%data%", education.schools[school].majors);
 			var formattedschoolDates = HTMLschoolDates.replace("%data%", education.schools[school].dates);
@@ -357,7 +361,7 @@ education.display = function()
 			if (education.schools[school].hasOwnProperty('location'))
 			{
 				var HTMLschoolLocation = HTMLworkLocation.replace("%data%", education.schools[school].location);
-				$(".education-entry:last").prepend(HTMLschoolLocation);
+				$(".education-entry:last").append(HTMLschoolLocation);
 			}
 			$(".education-entry:last").append(formattedschoolDates);
 			$(".education-entry:last").append(formattedschoolMajor);	
@@ -372,11 +376,11 @@ education.display = function()
 		 { 
 			var formattedonlineCourseTitle = HTMLonlineTitle.replace("%data%", education.onlineCourses[course].title);
 			var formattedonlineCourseSchool = HTMLonlineSchool.replace("%data%", education.onlineCourses[course].school);
-			//var formattedonlineCoursesDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates +"<br>");
-			formattedonlineCourseTitle = formattedonlineCourseTitle.replace("%url%", education.onlineCourses[course].url);
+			var formattedonlineCoursesDates = HTMLonlineDates.replace("%data%", education.onlineCourses[course].dates +"<br>");
+			var formattedonlineCourseTitle = formattedonlineCourseTitle.replace("%url%", education.onlineCourses[course].url);
 
 			$(".education-entry:last").append(formattedonlineCourseTitle + formattedonlineCourseSchool);
-			//$(".education-entry:last").append(formattedonlineCoursesDates);
+			$(".education-entry:last").append(formattedonlineCoursesDates);
 			//$(".education-entry:last").append(formattedonlinecoursesURL)
 		 }
 	}
