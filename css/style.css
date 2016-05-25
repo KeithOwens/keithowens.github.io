@@ -302,9 +302,15 @@ span {
 }
 
 @media only screen and (min-width: 767px) {
-  #skills-h3,
   .biopic {
     display: block;
+  }
+}
+
+@media only screen and (min-width: 480px) {
+  #skills-h3 {
+    display: inline;
+	padding: 0;
   }
 }
 
