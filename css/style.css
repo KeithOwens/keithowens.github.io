@@ -245,7 +245,7 @@ ul {
 }
 
 .biopic {
-  float: left;
+  float: right;
   padding: 10px;
   width: 200px;
   display: none;
@@ -277,7 +277,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 767px) {
   #lets-connect {
     margin-top: 10%;
   }
@@ -301,7 +301,7 @@ span {
   padding-bottom: 5%;
 }
 
-@media only screen and (min-width: 750px) {
+@media only screen and (min-width: 767px) {
   #skills-h3,
   .biopic {
     display: block;
