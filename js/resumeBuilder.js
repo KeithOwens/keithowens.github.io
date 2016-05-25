@@ -37,7 +37,7 @@ var work = {
 						"employer" : "Toshiba Medical Research Institute USA",
 						"title" : "Principal Software Engineer",
 						"location" : "Vernon Hills, IL",
-						"dates" : "July, 2012 - Present",
+						"dates" : "Jul, 2012 - Present",
 						"description" : "Staff-level, individual contributor completely responsible for design, implementation, and maintenance of "+
 								"data acquisition, system health monitoring/reporting, and detector calibration.  "+  
 								"Responsible for developing automated testing as part of "+
@@ -48,7 +48,7 @@ var work = {
 						"employer" : "Toshiba Medical Research Institute USA",
 						"title" : "Principal Software Engineer",
 						"location" : "Vernon Hills, IL",
-						"dates" : "March, 2007 - July, 2012",
+						"dates" : "Mar, 2007 - Jul, 2012",
 						"description" : "Staff-level, individual contributor completely design and implement new features for and maintenance of the "+
 								"image-processing subsystem.  Responsible for creating a system-integration process and release test plan.  "+
 								"Responsible for techincal leadership of X-ray software team.  Led group in feasibility study for next-generation cardiac, "+
@@ -58,7 +58,7 @@ var work = {
 						"employer" : "Motorola",
 						"title" : "Principal Component Sourcing Engineer",
 						"location" : "Libertyville, IL",
-						"dates" : "November, 2004 - March, 2007",
+						"dates" : "Nov, 2004 - Mar, 2007",
 						"description" : "Staff-level, individual contributor responsible for all product-level qualification and sourcing of production quantities of new components "+
 								"for new 3G phones.  Required coordinating activities with Category Management, prototype manufacturing, suppliers, and Development engineering "+
 								"including the identification of cost reduction opportunities related to phone BOMs."
@@ -67,7 +67,7 @@ var work = {
 						"employer" : "Motorola",
 						"title" : "Principal Software Engineer",
 						"location" : "Deer Park, IL",
-						"dates" : "November, 2001 - November, 2004",
+						"dates" : "Nov, 2001 - Nov, 2004",
 						"description" : "Staff-level, individual contributor who developed algorithms and C implementations for the full-duplex hands-free software module."+
 								"  Responsible for mentoring and directing work tasks for two junior engineers in Deer Park office."
 					   },
@@ -75,7 +75,7 @@ var work = {
 						"employer" : "Motorola",
 						"title" : "Senior Hardware Engineer",
 						"location" : "Boynton Beach, FL",
-						"dates" : "January, 1994 - November, 2001",
+						"dates" : "Jan, 1994 - Nov, 2001",
 						"description" : "Led design of baseband sections for mobile radios, pagers, GSM mobile phone, and "+
 										"CDMA Telematics embedded telephone."
 					   }
